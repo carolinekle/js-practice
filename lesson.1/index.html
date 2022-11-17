@@ -7,6 +7,33 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        let input = prompt("Gimme a random number");
+        function add7(input){
+            return input + 7
+        }
+        console.log(add7(input))
+        
+        let x = prompt("Another number");
+        let y = prompt("And another!");
+        function multiply(x,y){
+            return x * y
+        }
+        console.log(multiply(x,y))
+
+        let sentence = prompt("What's on your mind (complete sentence, please)?");
+        function capitalize(sentence){
+            return sentence.charAt(0).toUpperCase() + sentence.slice(1);
+        }
+        console.log(capitalize(sentence))
+
+        let string = prompt("Give me your best keyboard smash.")
+        function lastChar(string){
+            return string.charAt(string.length -1)
+        }
+
+        console.log(lastChar(string))
+    </script>
     
 </body>
 </html>
